@@ -1,5 +1,10 @@
+Project Description: This are 4 test cases for the api test, which include
 
-Before running the api test, the following package should be installed first
-1. npm install
+1. Get correct data from user list
+2. Get correct data from a user
+3. Login successfully with valid email and password
+4. Login unsuccessfully without passing password
 
-Script to run: npm test (config is placed in package.json)
+Installation: All required module are included in package.json. When run command line "npm install", all modules would be installed
+
+Test execution: Run command "npm test" in terminal (config is placed in package.json)
