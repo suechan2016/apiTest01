@@ -8,10 +8,6 @@ var expect = chai.expect;
 var app = "https://reqres.in/api";
 
 describe("GET /user", function () {
-  it("should get status 200", function () {
-    return request(app).get("/users").expect(200);
-  })
-
   it("should return correct keys in user list", function (done) {
     request(app).get("/users?page=2")
       .set('Content-Type', 'application/json')
